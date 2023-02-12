@@ -11,19 +11,15 @@ body {
     padding : 0;
     box-sizing: border-box;
     background-color: var(--color-gray);
-    overflow: hidden;
+    overflow-x : hidden;
     width :100vw;
     font-family: Outfit;
+    min-height: 100vh;
 }
+
 body, .container{
     display: grid;
     place-items: center;
-    justify-content: center;
-}
-.container {
-    
-    height: 100vh;
-    /* background-color: var(--color-dark-blue) */
 }
 .card {
     background: var(--color-white);
