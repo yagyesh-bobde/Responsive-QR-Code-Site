@@ -12,7 +12,6 @@ body {
     box-sizing: border-box;
     background-color: var(--color-gray);
     overflow-x : hidden;
-    width :100vw;
     font-family: Outfit;
     min-height: 100vh;
 }
